@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(230, 227, 235);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+    min-height: 20%;
+}
+
+main {
+    display: flex;
+    padding: 10px;
+    
+}
+
+.left {
+    background-color: antiquewhite;
+    display: flex;
+    padding: 10px;
+    width: 60vw;
+    min-height: 60vh;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+}
+
+.left-bottom {
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+min-height: 30%;
+}
+
+.more1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(228, 179, 120);
+    margin: 10px;
+    flex-grow: 1;
+    flex-basis: 45%;
+    }
+.more2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(228, 179, 120);
+    margin: 10px;
+    flex-grow: 1;
+    flex-basis: 100%;
+    }
+
+aside {
+    padding: 10px;
+    width: 40vw;
+    background-color: rgb(189, 255, 233);
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    min-height: 20%;
+}
+
+.footer-section {
+    background-color: bisque;
+    padding: 10px;
+    margin: 10px;
+    width: 25vw;
+    text-align: center;
+}
